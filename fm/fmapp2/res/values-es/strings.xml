@@ -78,8 +78,8 @@
     <string name="preset_search">Buscar por "<xliff:g id="preset_pi">%1$s</xliff:g>"
         </string>
 
-    <string name="stat_notif_frequency">Estación de Radio FM "<xliff:g id="frequency">%1$s</xliff:g>" MHz</string>
-    <string name="stat_notif_tx_frequency">Transmitiendo FM en: "<xliff:g id="frequency">%1$s</xliff:g>"</string>
+    <string name="stat_notif_frequency">"<xliff:g id="frequency">%1$s</xliff:g>" MHz</string>
+    <string name="stat_notif_tx_frequency">Transmitiendo en: "<xliff:g id="frequency">%1$s</xliff:g>"</string>
     <string name="sel_band_menu">Seleccionar Región de FM</string>
     <string name="test_menu">Seleccionar Prueba</string>
     <string name="settings_menu">Ajustes</string>
