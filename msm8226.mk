@@ -33,6 +33,10 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Ebtables
 PRODUCT_PACKAGES += \
     ebtables \

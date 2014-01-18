@@ -77,6 +77,10 @@ on boot
     chown root shell /cache/trace
     chmod 0777 /cache/trace
 
+    # Vibrator Intensity Control
+    chmod 0660 /sys/devices/virtual/timed_output/vibrator/vtg_level
+    chown system system /sys/devices/virtual/timed_output/vibrator/vtg_level
+
 #start camera server as daemon
 service qcamerasvr /system/bin/mm-qcamera-daemon
     class late_start
