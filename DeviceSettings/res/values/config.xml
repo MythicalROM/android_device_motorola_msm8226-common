@@ -26,4 +26,7 @@
     <string name="intensity_default_value">28</string>
     <string name="intensity_min_value">12</string>
 
+    <!-- Wake Method Tuning -->
+    <bool name="has_wake">true</bool>
+
 </resources>

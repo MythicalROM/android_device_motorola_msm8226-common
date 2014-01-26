@@ -27,4 +27,12 @@
     <string name="vibrator_tuning_summary_head">Adjust the strength of the vibration feedback</string>
     <string name="vibrator_warning">Values higher than %1$d are not recommended</string>
 
+    <!-- Touchscreen Preference -->
+    <string name="category_touchscreen_title">Touchscreen</string>
+
+    <!-- Wake Method Tuning -->
+    <string name="wake_title">Wake</string>
+    <string name="wake_method_title_head">Wake Method</string>
+    <string name="wake_method_summary_head">Select which wake method you prefer to use.</string>
+
 </resources>

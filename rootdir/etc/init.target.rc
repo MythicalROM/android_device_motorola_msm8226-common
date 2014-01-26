@@ -81,6 +81,12 @@ on boot
     chmod 0660 /sys/devices/virtual/timed_output/vibrator/vtg_level
     chown system system /sys/devices/virtual/timed_output/vibrator/vtg_level
 
+    # Wake Method Tuning
+    chmod 0660 /sys/android_touch/doubletap2wake
+    chmod 0660 /sys/android_touch/sweep2wake
+    chown system system /sys/android_touch/doubletap2wake
+    chown system system /sys/android_touch/sweep2wake
+
 #start camera server as daemon
 service qcamerasvr /system/bin/mm-qcamera-daemon
     class late_start
