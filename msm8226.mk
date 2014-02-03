@@ -60,6 +60,9 @@ PRODUCT_PACKAGES += \
     memtrack.msm8226 \
     power.msm8226
 
+# QRNG
+PRODUCT_PACKAGES += qrngp
+
 # Utilities
 PRODUCT_PACKAGES += \
     mkfs.f2fs \
