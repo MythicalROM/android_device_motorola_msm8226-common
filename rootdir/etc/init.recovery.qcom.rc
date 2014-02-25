@@ -1,0 +1,3 @@
+on init
+    chmod 755 /gpecheck.sh
+    exec /gpecheck.sh
